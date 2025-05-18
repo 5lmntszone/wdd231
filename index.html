@@ -28,15 +28,32 @@
     </header>
     <main>
         <h1>Home</h1>
-        <section>
-            <h2>Course Work</h2>
-        </section>
-        <section>
-            <h2>Wroclaw, Poland</h2>
-        </section>
-        <section>
-            <h2>Web and Computer Programming Certificate</h2>
-        </section>
+        <div class="main-content">
+            <section class="main-tab">
+                <h2>Course Work</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+            <section class="aside-tab">
+                <h2>Wroclaw, Poland</h2>
+                <img src="" alt="Wroclaw, Poland">
+            </section>
+            <section class="lower-tab">
+                <h2>Web and Computer Programming Certificate</h2>
+
+                <div class="filter-buttons">
+                    <button data-filter="all">All Courses</button>
+                    <button data-filter="WDD">WDD Courses</button>
+                    <button data-filter="CSE">CSE Courses</button>
+                </div>
+
+                <div id="credit-display">Total Credits: 0</div>
+                <div id="course-container"></div>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Joanna Wisniewska Poland</p>

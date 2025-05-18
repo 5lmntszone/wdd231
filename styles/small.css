@@ -10,7 +10,6 @@ html {
   
 html, body {
     font-family: 'Open Sans', sans-serif;
-    color: var(--text);
     line-height: 1.6;
     width: 100%;
     height: 100%;
@@ -65,7 +64,29 @@ main {
     padding: 0 1rem;
 }
 
+.main-content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 3fr 1.5fr;
+    grid-template-areas: 
+        'main aside'
+        'lower lower';
+    max-height: 100vh;
+    background-color: whitesmoke;
+}
 
+.main-tab {
+    grid-area: main;
+    
+}
+
+.aside-tab {
+    grid-area: aside;
+}
+
+.lower-tab {
+    grid-area: lower;
+}
 
 /* footer */
 
