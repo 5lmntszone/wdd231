@@ -115,3 +115,10 @@ buttons.forEach(button => {
 });
 
 renderCourses(courses);
+
+// Hamburger menu toggle
+document.getElementById('hamburger').addEventListener('click', function () {
+    const nav = document.querySelector('nav ul');
+    nav.classList.toggle('open');
+  });
+  
