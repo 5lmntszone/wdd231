@@ -88,7 +88,7 @@ const buttons = document.querySelectorAll('.filter-buttons button');
 function renderCourses(courseList) {
     container.innerHTML = '';
     const totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
-    creditDisplay.textContent = 'Total Credits: ${totalCredits}';
+    creditDisplay.textContent = `Total Credits: ${totalCredits}`;
 
     courseList.forEach(course => {
         const card = document.createElement('div');

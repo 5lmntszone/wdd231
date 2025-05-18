@@ -73,11 +73,15 @@ main {
         'lower lower';
     max-height: 100vh;
     background-color: whitesmoke;
+    padding: 1rem;
+    margin: 0.5rem;
+    gap: 1rem;
+    border-radius: 5px;
 }
 
 .main-tab {
     grid-area: main;
-    
+    margin-left: 1.5rem;
 }
 
 .aside-tab {
@@ -86,6 +90,7 @@ main {
 
 .lower-tab {
     grid-area: lower;
+    justify-items: center;
 }
 
 /* footer */
@@ -94,4 +99,48 @@ footer {
     justify-items: center;
     background-color: rgb(134, 87, 179);
     padding: 1rem;
+}
+
+/* Courses Tab */
+
+.filter-buttons {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#course-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.course-card {
+    border-left: 5px solid #0077cc;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+.course-card.completed {
+    background-color: white;
+    border-left-color: #28a745;
+}
+  
+#credit-display {
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
