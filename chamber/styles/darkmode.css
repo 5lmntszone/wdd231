@@ -1,0 +1,34 @@
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  body.dark-mode header,
+  body.dark-mode nav ul,
+  body.dark-mode footer,
+  body.dark-mode .section-grid section,
+  body.dark-mode .business-card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-color: #333;
+  }
+  
+  body.dark-mode nav a {
+    color: #f1f1f1;
+  }
+  
+  body.dark-mode nav a:hover,
+  body.dark-mode nav a.active {
+    color: #66b2ff;
+  }
+  
+  body.dark-mode .section-grid section h2 {
+    background-color: #333;
+  }
+  
+  body.dark-mode #darkToggle {
+    background-color: #333;
+    color: #f1f1f1;
+  }
+  

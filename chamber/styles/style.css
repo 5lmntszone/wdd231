@@ -43,6 +43,7 @@ header {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-left: 4rem;
 }
   
 .nav-image img {
@@ -51,7 +52,7 @@ header {
     object-fit: cover;
     border-radius: 5px;
 }
-  
+
 .nav-image h1 {
     font-size: 1.8rem;
     margin: 0;
@@ -85,6 +86,21 @@ nav a.active {
   
 .hamburger {
     display: none;
+}
+
+/* Dark Mode Button */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#darkToggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
 }
   
 
@@ -183,7 +199,7 @@ footer {
     justify-content: space-evenly;
     background-color: #ccc;
     padding: 1rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
