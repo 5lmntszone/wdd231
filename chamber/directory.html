@@ -12,17 +12,23 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/darkmode.css">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 600px)">
     <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="nav-image">
-          <img src="images/" alt="Timbuktu" loading="lazy">
-          <h1>Timbuktu</h1>
-          <p>Chamber of Commerce</p>
+        <div class="nav-left">
+          <img src="images/logo.webp" alt="Timbuktu" loading="lazy">
+          <div>
+            <h1>Timbuktu</h1>
+            <p>Chamber of Commerce</p>
+          </div>
         </div>
       
-        <div class="nav-bar">
+        <div class="nav-right">
+          <button id="darkToggle" title="Toggle Dark Mode">🌓</button>
+          <button class="hamburger" id="hamburger" title="Menu">&#9776;</button>
+      
           <nav>
             <ul>
               <li><a href="index.html" class="active">Home</a></li>
@@ -31,10 +37,9 @@
               <li><a href="">Discover</a></li>
             </ul>
           </nav>
-          
-          <button id="darkToggle" title="Toggle Dark Mode">🌓</button>
         </div>
       </header>      
+         
     <main>
         <div class="hero-img">
             <img src="" alt="Hero Image" loading="lazy">
