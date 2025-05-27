@@ -1,0 +1,25 @@
+@media screen and (max-width: 1170px) {
+    #business-directory.list section {
+        grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 936px) {
+    #business-directory.list section {
+        grid-template-columns: 1.2fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 891px) {
+    #business-directory.list section {
+        grid-template-columns: 1.2fr 2fr 1fr;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    #business-directory.list section {
+        grid-template-columns: 2fr 2fr;
+    }
+}
+

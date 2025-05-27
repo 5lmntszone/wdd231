@@ -96,7 +96,7 @@ main {
     padding: 0.5rem 1rem;
   }
   
-  /* === SECTION GRID === */
+  /* === SECTION GRID - WEATHER === */
   .section-grid {
     display: flex;
     flex-direction: column;
@@ -107,16 +107,30 @@ main {
   .section-grid section {
     margin: 0 0.5rem;
   }
+
+  /* BUSINESS CARDS */
   
-  /* === BUSINESS CARDS === */
-  #business-container {
+  #business-directory.grid,
+  #business-directory.list {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    padding: 1rem;
   }
-  
-  .business-card {
+
+  #business-directory.grid section,
+  #business-directory.list section {
     width: 90%;
+  }
+
+  #business-directory.list section {
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+  }
+
+  #business-directory.list img {
+    max-width: 80px;
+    height: auto;
   }
   
   /* === FOOTER === */

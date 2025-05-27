@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/darkmode.css">
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="styles/layout-fix.css">
     <script src="scripts/scripts.js" defer></script>
 </head>
 <body>
@@ -62,7 +63,12 @@
             </section>
         </div>
 
-        <div id="business-container"></div>
+        <div class="menu">
+          <button id="grid">Grid</button>
+          <button id="list">List</button>
+        </div>
+
+        <article id="business-directory" class="grid"></article>
     </main>
     <footer>
         <div class="left-tab">
