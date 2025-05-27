@@ -31,7 +31,7 @@
     margin: 1rem 2rem;
   }
   
-  /* === Header === */
+  /* HEADER */
   header {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@
     display: none;
   }
   
-  /* === Navigation === */
+  /* NAVIGATION */
   nav ul {
     display: flex;
     gap: 2rem;
@@ -105,7 +105,7 @@
     color: var(--accent1-color);
   }
   
-  /* === Hero Section === */
+  /* HERO SECTION */
   .hero-img {
     position: relative;
     background-color: #ccc;
@@ -130,7 +130,7 @@
     cursor: pointer;
   }
   
-  /* === Section Grid - WEATHER === */
+  /* Section Grid - WEATHER */
   .section-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -157,7 +157,7 @@
     margin: -1rem -1rem 1rem -1rem;
   }
   
-/* === BUSINESS DIRECTORY: GRID VIEW === */
+/* BUSINESS DIRECTORY: GRID VIEW */
 #business-directory.grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -181,7 +181,7 @@
   margin-bottom: 1rem;
 }
 
-/* === BUSINESS DIRECTORY: LIST VIEW === */
+/* BUSINESS DIRECTORY: LIST VIEW */
 #business-directory.list {
   display: flex;
   flex-direction: column;
@@ -210,13 +210,13 @@
   margin-bottom: 0.25rem;
 }
 
-/* === MEMBERSHIP LABEL === */
+/* MEMBERSHIP LABEL */
 .membership-level {
   font-weight: bold;
   color: var(--accent3-color);
 }
 
-/* === LIST/GRID BUTTON STYLING === */
+/* LIST/GRID BUTTON STYLING */
 .menu {
   margin: 1rem auto;
   border: 1px solid rgb(0 0 0 / 0.1);
@@ -239,7 +239,7 @@
   background-color: var(--accent2-color);
 }
   
-  /* === Footer === */
+  /* FOOTER */
   footer {
     display: flex;
     justify-content: space-evenly;
