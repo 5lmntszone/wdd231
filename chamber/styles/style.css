@@ -156,6 +156,15 @@
     padding: 0.5rem;
     margin: -1rem -1rem 1rem -1rem;
   }
+
+  .cweather-container {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .fweather-container {
+    font-size: x-large;
+  }
   
 /* BUSINESS DIRECTORY: GRID VIEW */
 #business-directory.grid {

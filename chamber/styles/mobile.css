@@ -1,4 +1,4 @@
-/* === MOBILE-ONLY STYLES === */
+/* MOBILE-ONLY STYLES */
 
 main {
     margin: 0 1rem;
@@ -9,7 +9,7 @@ main {
     font-size: 1.4rem;
   }
   
-  /* === HEADER === */
+  /* HEADER */
   header {
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,6 @@ main {
     flex-wrap: wrap;
   }
   
-  /* Updated layout for header logo and info */
   .nav-image {
     display: flex;
     align-items: center;
@@ -41,15 +40,12 @@ main {
     margin: 0;
   }
   
-  /* Wrap darkToggle and hamburger together */
   .nav-right {
     flex-direction: row;
     gap: 1rem;
     align-items: center;
   }
   
-  
-  /* Dark Mode Toggle and Hamburger */
   #darkToggle,
   .hamburger {
     font-size: 1.5rem;
@@ -84,7 +80,7 @@ main {
     color: var(--accent1-color);
   }
   
-  /* === HERO === */
+  /* HERO */
   .hero-img {
     height: 200px;
   }
@@ -96,7 +92,7 @@ main {
     padding: 0.5rem 1rem;
   }
   
-  /* === SECTION GRID - WEATHER === */
+  /* SECTION GRID - WEATHER */
   .section-grid {
     display: flex;
     flex-direction: column;
@@ -133,7 +129,7 @@ main {
     height: auto;
   }
   
-  /* === FOOTER === */
+  /* FOOTER */
   footer {
     flex-direction: column;
     align-items: center;
