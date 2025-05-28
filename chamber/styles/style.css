@@ -162,6 +162,11 @@
     gap: 1rem;
   }
 
+.cweather-container img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
   .fweather-container {
     font-size: x-large;
   }
@@ -267,13 +272,14 @@
   
   footer .social-media {
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
+    padding: 0.5rem;
+    margin-right: 1rem;
   }
   
   footer .social-media img {
-    width: 32px;
-    height: 32px;
-    padding: 1rem;
+    width: 35px;
+    height: 35px;
   }
   

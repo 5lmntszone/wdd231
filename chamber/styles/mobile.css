@@ -41,28 +41,46 @@ main {
   }
   
   .nav-right {
+    display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     gap: 1rem;
-    align-items: center;
+    align-items: flex-end;
+    width: 100%;
+    position: relative;
+    margin-top: -3rem;
+  }
+
+  .nav-right button {
+    margin-bottom: 0.5rem;
   }
   
   #darkToggle,
   .hamburger {
+    display: block;
     font-size: 1.5rem;
     background: none;
     border: none;
     cursor: pointer;
+    align-self: flex-end;
+    z-index: 2;
   }
   
   /* Navigation Menu */
   nav ul {
     display: none;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     width: 100%;
     padding: 1rem 0;
     text-align: center;
     background-color: #e6e6e6;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1;
   }
   
   nav ul.open {
@@ -110,6 +128,7 @@ main {
   #business-directory.list {
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     gap: 1rem;
     padding: 1rem;
   }
@@ -140,6 +159,7 @@ main {
   
   footer .social-media {
     justify-content: center;
+    margin: 0 1rem;
   }
   
   footer .left-tab,
@@ -149,5 +169,7 @@ main {
   
   footer .social-media img {
     padding: 0.5rem;
+    height: 40px;
+    width: 40px;
   }
   
