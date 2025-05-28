@@ -36,7 +36,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #e6e6e6;
+    background-color: #95B8D1;
     padding: 1rem 2rem;
     border-bottom: 2px solid #ccc;
     flex-wrap: wrap;
@@ -49,10 +49,9 @@
   }
   
   .nav-left img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    margin: 0;
   }
   
   .nav-left h1 {
@@ -62,7 +61,7 @@
   
   .nav-left p {
     font-size: 1rem;
-    color: #666;
+    color: rgba(0, 0, 0, 0.586);
     margin: 0;
   }
   
@@ -102,21 +101,22 @@
   
   nav a:hover,
   nav a.active {
-    color: var(--accent1-color);
+    color: rgb(27, 62, 215);
   }
   
   /* HERO SECTION */
   .hero-img {
     position: relative;
-    background-color: #ccc;
     height: 300px;
     overflow: hidden;
+    margin-top: -0.1rem;
   }
   
   .hero-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
   }
   
   .hero-img button {
@@ -124,7 +124,8 @@
     bottom: 1.5rem;
     right: 1.5rem;
     padding: 0.75rem 1.5rem;
-    background-color: #ddd;
+    background-color: var(--primary-color);
+    color: #ffffff;
     border: none;
     font-weight: bold;
     cursor: pointer;
@@ -150,7 +151,7 @@
   }
   
   .section-grid section h2 {
-    background-color: #333;
+    background-color: #809BCE;
     color: white;
     font-size: 1.1rem;
     padding: 0.5rem;
@@ -235,7 +236,7 @@
   margin: 1rem auto;
   border: 1px solid rgb(0 0 0 / 0.1);
   padding: 0.5rem;
-  background-color: #333;
+  background-color: #95B8D1;
   text-align: center;
 }
 
@@ -257,7 +258,8 @@
   footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #ccc;
+    background-color: #334856;
+    color: #ccc;
     padding: 1rem;
     margin-top: 2rem;
     align-items: center;
