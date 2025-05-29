@@ -64,17 +64,17 @@ main {
     cursor: pointer;
     align-self: flex-end;
     z-index: 2;
+    color: #ffffff;
   }
   
   /* Navigation Menu */
   nav ul {
     display: none;
     flex-direction: column;
-    /* gap: 1rem; */
     width: 100%;
     padding: 1rem 0;
     text-align: center;
-    background-color: #95B8D1;
+    background-color: #2b4f7d;
     position: absolute;
     top: 100%;
     right: 0;
@@ -87,14 +87,14 @@ main {
   }
   
   nav a {
-    color: #333;
+    color: #ffffff;
     font-size: 1rem;
     font-weight: bold;
   }
   
   nav a.active,
   nav a:hover {
-    color:  rgb(27, 62, 215);
+    color: var(--accent1-color);
   }
   
   /* HERO */

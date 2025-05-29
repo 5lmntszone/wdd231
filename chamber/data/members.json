@@ -1,65 +1,65 @@
 {
     "members": [
       {
-        "name": "Blue Desert Coffee",
+        "name": "The Liceria Drink",
         "address": "123 Main St, Timbuktu",
         "phone": "(223) 555-1234",
         "website": "https://bluedesert.com",
-        "image": "bluedesert.jpg",
+        "image": "company4.png",
         "membership": 3,
-        "description": "Local artisan coffee with a global mission."
+        "description": ""
       },
       {
-        "name": "Sahara Tech",
+        "name": "Global Tech",
         "address": "456 Innovation Way, Timbuktu",
         "phone": "(223) 555-5678",
         "website": "https://saharatech.org",
-        "image": "saharatech.jpg",
+        "image": "company2.png",
         "membership": 2,
-        "description": "Leading technology solutions in Mali."
+        "description": ""
       },
       {
-        "name": "Nomad Outfitters",
+        "name": "People Connect",
         "address": "789 Market Rd, Timbuktu",
         "phone": "(223) 555-4321",
         "website": "https://nomadoutfitters.ml",
-        "image": "nomad.jpg",
+        "image": "company3.png",
         "membership": 1,
-        "description": "Adventure gear and clothing for desert travel."
+        "description": ""
       },
       {
-        "name": "Timbuktu Tours",
+        "name": "Larana",
         "address": "99 Explorer Ave, Timbuktu",
         "phone": "(223) 555-6789",
         "website": "https://timbuktutours.com",
-        "image": "tours.jpg",
+        "image": "company6.png",
         "membership": 3,
         "description": "Cultural and historical tours of Mali."
       },
       {
-        "name": "Oasis Wellness Spa",
+        "name": "Liceria & CO",
         "address": "22 Serenity St, Timbuktu",
         "phone": "(223) 555-8765",
         "website": "https://oasiswellness.ml",
-        "image": "oasis.jpg",
+        "image": "company1.png",
         "membership": 2,
-        "description": "Spa and wellness treatments inspired by the desert."
+        "description": ""
       },
       {
-        "name": "Camel Courier",
+        "name": "Blue Waves",
         "address": "18 Caravan Ln, Timbuktu",
         "phone": "(223) 555-1111",
         "website": "https://camelcourier.ml",
-        "image": "courier.jpg",
+        "image": "company5.png",
         "membership": 1,
         "description": "Eco-friendly package delivery service."
       },
       {
-        "name": "Desert Data Solutions",
+        "name": "Borcelle",
         "address": "100 Tech Valley, Timbuktu",
         "phone": "(223) 555-2222",
         "website": "https://desertdata.ml",
-        "image": "data.jpg",
+        "image": "company7.png",
         "membership": 3,
         "description": "Data analytics and consulting for arid regions."
       }
