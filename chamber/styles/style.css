@@ -104,6 +104,11 @@
   nav a.active {
     color: var(--accent1-color);
   }
+
+  .home {
+    font-size: 1.2rem;
+    margin: 0.5rem 2rem;
+  }
   
   /* HERO SECTION */
   .hero-img {
