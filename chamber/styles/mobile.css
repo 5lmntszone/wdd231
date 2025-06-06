@@ -18,25 +18,20 @@ main {
     flex-wrap: wrap;
   }
   
-  .nav-image {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  .nav-left img {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+  }
+
+  .nav-left h1 {
+    font-size: 1.2rem;
     margin: 0;
   }
   
-  .nav-image img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .nav-image h1 {
-    font-size: 1.5rem;
-  }
-  
-  .nav-image p {
-    font-size: 0.9rem;
-    color: #444;
+  .nav-left p {
+    font-size: 0.7rem;
+    color: #ffffffbb;
     margin: 0;
   }
   
@@ -48,17 +43,13 @@ main {
     align-items: flex-end;
     width: 100%;
     position: relative;
-    margin-top: -3rem;
-  }
-
-  .nav-right button {
-    margin-bottom: 0.5rem;
+    margin-top: -4rem;
   }
   
   #darkToggle,
   .hamburger {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background: none;
     border: none;
     cursor: pointer;
