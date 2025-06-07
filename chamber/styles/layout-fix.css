@@ -15,11 +15,41 @@
     #business-directory.list section {
         grid-template-columns: 1.2fr 2fr 1fr;
     }
+
+    .cweather-container img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    
+    .fweather-container {
+      font-size: large;
+    }
+}
+
+@media  screen and (max-width: 377px) {
+    .nav-left img {
+        width: 50px;
+        height: 50px;
+      }
+    
+      .nav-left h1 {
+        font-size: 1.2rem;
+      }
+      
+      .nav-left p {
+        font-size: 0.7rem;
+      }
 }
 
 @media screen and (max-width: 624px) {
     #business-directory.list section {
         grid-template-columns: 2fr 2fr;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    main h1 {
+        font-size: 1.2rem;
     }
 }
 

@@ -19,18 +19,18 @@ main {
   }
   
   .nav-left img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin: 0;
   }
 
   .nav-left h1 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     margin: 0;
   }
   
   .nav-left p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: #ffffffbb;
     margin: 0;
   }
@@ -110,6 +110,14 @@ main {
   
   .section-grid section {
     margin: 0 0.5rem;
+  }
+
+  .fweather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
   }
 
   /* BUSINESS CARDS */
