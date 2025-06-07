@@ -112,14 +112,6 @@ main {
     margin: 0 0.5rem;
   }
 
-  .fweather-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: .5rem;
-  }
-
   /* BUSINESS CARDS */
   
   #business-directory.grid,

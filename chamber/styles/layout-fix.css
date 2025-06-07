@@ -2,6 +2,18 @@
     #business-directory.list section {
         grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
     }
+
+    .hero-content h2 {
+        font-size: 1.4rem !important;
+    }
+      
+    .hero-content p {
+        font-size: .9rem !important;
+    }
+
+    .cta-button {
+        font-size: .9rem;
+    }
 }
 
 @media screen and (max-width: 936px) {
@@ -16,13 +28,22 @@
         grid-template-columns: 1.2fr 2fr 1fr;
     }
 
-    .cweather-container img {
-        max-width: 80px;
-        max-height: 80px;
+    .hero-content {
+        max-width: 80% !important;
+        bottom: 1rem !important;
+        left: 1rem !important;
     }
-    
-    .fweather-container {
-      font-size: large;
+
+    .hero-content h2 {
+        font-size: 1rem !important;
+    }
+      
+    .hero-content p {
+        font-size: .9rem !important;
+    }
+
+    .cta-button {
+        font-size: .9rem;
     }
 }
 
@@ -32,6 +53,26 @@
     }
 }
 
+@media screen and (max-width: 486px) {
+    .forecast-card {
+        flex-direction: column !important;
+        gap: .5rem !important;
+    }
+
+    .hero-content {
+        bottom: 1rem !important;
+        max-width: 87% !important;
+        text-align: center;
+    }
+      
+    .hero-content p {
+        display: none;
+    }
+
+    .cta-button {
+        font-size: .8rem;
+    }
+}
 
 @media  screen and (max-width: 377px) {
     .nav-left img {
@@ -67,6 +108,10 @@
 @media screen and (max-width: 310px) {
     main h1 {
         font-size: 1.2rem;
+    }
+
+    .spotlight-container .card p {
+        font-size: .9rem;
     }
 }
 

@@ -20,8 +20,11 @@
     <link rel="stylesheet" href="styles/layout-fix.css">
     <link rel="stylesheet" href="styles/spotlight.css">
     <link rel="stylesheet" href="styles/cta.css">
+    <link rel="stylesheet" href="styles/weather.css">
+
     <script src="scripts/scripts.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 </head>
 <body>
     <header>
@@ -52,39 +55,41 @@
         <h1>Welcome to Timbuktu - Chamber of Commerce!</h1>
         <div class="hero-img">
             <img src="images/hero-img.webp" alt="Hero Image" loading="lazy">
-            <button type="submit">Keynote Tickets</button>
+
+            <div class="hero-content">
+                <h2>Join the Timbuktu Chamber of Commerce</h2>
+                <p>Connect with local businesses, grow your network, and support the Timbuktu community.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
         </div>
 
         <div class="section-grid">
             <section>
               <h2>Events</h2>
             </section>
+
             <section>
               <h2>Current Weather</h2>
-
-              <div class="cweather-container">
-                <img src="" alt="" loading="lazy">
-
-                <div></div>
+              <div class="cw-card">
+                <p id="town"></p>
+                <img id="graphic" src="" alt="">
+                <p id="description"></p>
+                <p id="temperature"></p>
               </div>
             </section>
 
             <section>
               <h2>Weather Forecast</h2>
-              <div class="fweather-container"></div>
+              <div class="forecast">
+                <div id="forecast-cards"></div>
+              </div>              
             </section>
         </div>
 
         <section id="spotlight">
             <h2>Gold & Silver Member Spotlights</h2>
             <div class="spotlight-container"></div>
-        </section>
-
-        <section class="cta-section">
-            <h2>Join the Timbuktu Chamber of Commerce</h2>
-            <p>Connect with local businesses, grow your network, and support the Timbuktu community.</p>
-            <a href="join.html" class="cta-button">Become a Member</a>
-        </section>          
+        </section>       
 
     </main>
     <footer>

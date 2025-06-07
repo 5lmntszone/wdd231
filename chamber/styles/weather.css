@@ -1,0 +1,40 @@
+.cw-card {
+    text-align: center;
+    padding: 1rem;
+    justify-self: center;
+    background-color: var(--accent2-color);
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.cw-card #description, .forecast-card {
+    text-transform: capitalize;
+}
+
+.cw-card #temperature {
+    font-size: 2rem;
+}
+
+.forecast, .cw-card {
+    margin: 1rem 0;
+}
+  
+#forecast-cards {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+  
+.forecast-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background: var(--accent2-color);
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+  
