@@ -1,69 +1,69 @@
 {
-    "members": [
-      {
-        "name": "The Liceria Drink",
-        "address": "123 Main St, Timbuktu",
-        "phone": "(223) 555-1234",
-        "website": "https://bluedesert.com",
-        "image": "company4.png",
-        "membership": 3,
-        "description": ""
-      },
-      {
-        "name": "Global Tech",
-        "address": "456 Innovation Way, Timbuktu",
-        "phone": "(223) 555-5678",
-        "website": "https://saharatech.org",
-        "image": "company2.png",
-        "membership": 2,
-        "description": ""
-      },
-      {
-        "name": "People Connect",
-        "address": "789 Market Rd, Timbuktu",
-        "phone": "(223) 555-4321",
-        "website": "https://nomadoutfitters.ml",
-        "image": "company3.png",
-        "membership": 1,
-        "description": ""
-      },
-      {
-        "name": "Larana",
-        "address": "99 Explorer Ave, Timbuktu",
-        "phone": "(223) 555-6789",
-        "website": "https://timbuktutours.com",
-        "image": "company6.png",
-        "membership": 3,
-        "description": "Cultural and historical tours of Mali."
-      },
-      {
-        "name": "Liceria & CO",
-        "address": "22 Serenity St, Timbuktu",
-        "phone": "(223) 555-8765",
-        "website": "https://oasiswellness.ml",
-        "image": "company1.png",
-        "membership": 2,
-        "description": ""
-      },
-      {
-        "name": "Blue Waves",
-        "address": "18 Caravan Ln, Timbuktu",
-        "phone": "(223) 555-1111",
-        "website": "https://camelcourier.ml",
-        "image": "company5.png",
-        "membership": 1,
-        "description": "Eco-friendly package delivery service."
-      },
-      {
-        "name": "Borcelle",
-        "address": "100 Tech Valley, Timbuktu",
-        "phone": "(223) 555-2222",
-        "website": "https://desertdata.ml",
-        "image": "company7.png",
-        "membership": 3,
-        "description": "Data analytics and consulting for arid regions."
-      }
-    ]
-  }
-  
+  "members": [
+    {
+      "name": "The Liceria Drink",
+      "address": "123 Main St, Timbuktu",
+      "phone": "(223) 555-1234",
+      "website": "https://bluedesert.com",
+      "image": "company4.png",
+      "membership": 3,
+      "description": "Premium local beverage company known for organic fruit blends."
+    },
+    {
+      "name": "Global Tech",
+      "address": "456 Innovation Way, Timbuktu",
+      "phone": "(223) 555-5678",
+      "website": "https://saharatech.org",
+      "image": "company2.png",
+      "membership": 2,
+      "description": "Technology solutions provider for desert infrastructure and energy."
+    },
+    {
+      "name": "People Connect",
+      "address": "789 Market Rd, Timbuktu",
+      "phone": "(223) 555-4321",
+      "website": "https://nomadoutfitters.ml",
+      "image": "company3.png",
+      "membership": 1,
+      "description": "Community network and coworking spaces for entrepreneurs."
+    },
+    {
+      "name": "Larana",
+      "address": "99 Explorer Ave, Timbuktu",
+      "phone": "(223) 555-6789",
+      "website": "https://timbuktutours.com",
+      "image": "company6.png",
+      "membership": 3,
+      "description": "Cultural and historical tours of Mali."
+    },
+    {
+      "name": "Liceria & CO",
+      "address": "22 Serenity St, Timbuktu",
+      "phone": "(223) 555-8765",
+      "website": "https://oasiswellness.ml",
+      "image": "company1.png",
+      "membership": 2,
+      "description": "Luxury wellness and spa services with desert-inspired therapies."
+    },
+    {
+      "name": "Blue Waves",
+      "address": "18 Caravan Ln, Timbuktu",
+      "phone": "(223) 555-1111",
+      "website": "https://camelcourier.ml",
+      "image": "company5.png",
+      "membership": 1,
+      "description": "Eco-friendly package delivery service."
+    },
+    {
+      "name": "Borcelle",
+      "address": "100 Tech Valley, Timbuktu",
+      "phone": "(223) 555-2222",
+      "website": "https://desertdata.ml",
+      "image": "company7.png",
+      "membership": 3,
+      "description": "Data analytics and consulting for arid regions."
+    }
+  ]
+}
+
   

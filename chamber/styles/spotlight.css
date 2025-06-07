@@ -1,0 +1,29 @@
+#spotlight {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: #222831;
+  }
+  
+  .spotlight-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem;
+  }
+  
+  .spotlight-container .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    max-width: 300px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .spotlight-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  

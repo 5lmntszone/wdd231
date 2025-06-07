@@ -18,7 +18,10 @@
     <link rel="stylesheet" href="styles/darkmode.css">
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 825px)">
     <link rel="stylesheet" href="styles/layout-fix.css">
+    <link rel="stylesheet" href="styles/spotlight.css">
+    <link rel="stylesheet" href="styles/cta.css">
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 <body>
     <header>
@@ -52,39 +55,36 @@
             <button type="submit">Keynote Tickets</button>
         </div>
 
-        <div class="home"><h2>Home</h2></div>
         <div class="section-grid">
             <section>
               <h2>Events</h2>
-              <p></p>
             </section>
             <section>
               <h2>Current Weather</h2>
 
               <div class="cweather-container">
-                <img src="images/cloud.png" alt="Weather Icon" loading="lazy">
+                <img src="" alt="" loading="lazy">
 
-                <div>
-                  <p><strong>75°</strong> F</p>
-                  <p>Party Cloudy</p>
-                  <p>Hight: 85°</p>
-                  <p>Low: 52°</p>
-                  <p>Humidity: 34%</p>
-                  <p>Sunrise: 7:30am</p>
-                  <p>Sunset: 9:59pm</p>
-                </div>
+                <div></div>
               </div>
-
             </section>
+
             <section>
               <h2>Weather Forecast</h2>
-              <div class="fweather-container">
-                <p>Today: <strong>90°F</strong></p>
-                <p>Wednesday: <strong>89°F</strong></p>
-                <p>Thursday: <strong>68°F</strong></p>
-              </div>
+              <div class="fweather-container"></div>
             </section>
         </div>
+
+        <section id="spotlight">
+            <h2>Gold Member Spotlight</h2>
+            <div class="spotlight-container"></div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Join the Timbuktu Chamber of Commerce</h2>
+            <p>Connect with local businesses, grow your network, and support the Timbuktu community.</p>
+            <a href="join.html" class="cta-button">Become a Member</a>
+        </section>          
 
     </main>
     <footer>
