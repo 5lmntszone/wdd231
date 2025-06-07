@@ -58,6 +58,10 @@
     .cta-button {
         font-size: .9rem !important;
     }
+
+    #spotlight h2 {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (max-width: 310px) {
