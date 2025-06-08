@@ -60,13 +60,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items: stretch;
+        /* align-items: stretch; */
         gap: 1rem;
     }
 
     .course-card {
         width: 100%;
-        max-width: 300px;
+        max-width: 150px;
     }
 
     main {

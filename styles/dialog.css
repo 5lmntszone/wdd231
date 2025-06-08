@@ -1,0 +1,29 @@
+dialog {
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+    max-width: 600px;
+    justify-self: center;
+    align-self: center;
+}
+
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+::backdrop {
+    background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .5rem 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}

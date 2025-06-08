@@ -85,6 +85,10 @@ const container = document.getElementById('course-container');
 const creditDisplay = document.getElementById('credit-display');
 const buttons = document.querySelectorAll('.filter-buttons button');
 
+const courseDetails = document.getElementById("course-details");
+
+// COURSE LIST
+
 function renderCourses(courseList) {
     container.innerHTML = '';
     const totalCredits = courseList.reduce((sum, course) => sum + course.credits, 0);
@@ -96,11 +100,12 @@ function renderCourses(courseList) {
         if (course.completed) card.classList.add('completed');
 
         card.innerHTML = `
-            <h3>${course.title}</h3>
             <p><strong>${course.subject} ${course.number}</strong></p>
-            <p><strong>Credits:</strong> ${course.credits}</p>
-            <p><strong>Tech:</strong> ${course.technology.join(', ')}</p>
         `;
+
+        card.addEventListener('click', () => {
+            displayCourseDetails(course);
+        });
 
         container.appendChild(card);
     });
@@ -116,7 +121,47 @@ buttons.forEach(button => {
 
 renderCourses(courses);
 
-// Hamburger menu toggle
+// DIALOG
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+
+    courseDetails.innerHTML = `
+        <div class="dialog-content">
+            <button id="closeModal">❌</button>
+            <h2>${course.subject} ${course.number}</h2>
+            <h3>${course.title}</h3>
+            <p><strong>Credits</strong>: ${course.credits}</p>
+            <p><strong>Certificate</strong>: ${course.certificate}</p>
+            <p>${course.description}</p>
+            <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+        </div>
+      `;
+      
+    courseDetails.showModal();
+
+    // Close when user clicks X
+
+    document.getElementById("closeModal").addEventListener("click", () => {
+        courseDetails.close();
+    });
+
+    // Close when user clicks outside the modal
+
+    courseDetails.addEventListener('click', (event) => {
+        const rect = courseDetails.getBoundingClientRect();
+        if (
+            event.clientX < rect.left ||
+            event.clientX > rect.right ||
+            event.clientY < rect.top ||
+            event.clientY > rect.bottom
+        ) {
+            courseDetails.close();
+        }
+    });
+}
+
+// HAMBURGER MENU
 document.getElementById('hamburger').addEventListener('click', function () {
     const nav = document.querySelector('nav ul');
     nav.classList.toggle('open');
