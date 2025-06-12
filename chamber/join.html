@@ -23,11 +23,13 @@
     <link rel="stylesheet" href="styles/cta.css">
     <link rel="stylesheet" href="styles/weather.css">
     <link rel="stylesheet" href="styles/events.css">
+    <link rel="stylesheet" href="styles/form.css">
 
     <script src="scripts/scripts.js" defer></script>
     <script src="scripts/spotlight.js" defer></script>
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/join.js" defer></script>
+    <script src="scripts/form.js" defer></script>
 </head>
 <body>
     <header>
@@ -55,27 +57,37 @@
       </header>    
       
       <main>
-        <h1>Temple Appointment</h1>
+        <h1>Membership Application Form</h1>
 
-    <form method="GET" action="thankyou.html" class="thankYouPage">
-        <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
-        <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
-        <label>Organizational title <input type="text" name="orgTitle" required pattern="[A-Za-z\s\-]{7,}" title="Your Organizational Title (only letters, hyphens, and spaces; minimum 7 characters)" autocomplete="organization-title"></label>
-        <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
-        <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
-        <label>Business/Organization's Name<input type="text" name="businessName" required autocomplete="business" title="A Business Name"></label>
-  
+    <form method="GET" action="thankyou.html">
+        <div>
+            <label>First Name <input type="text" name="first" required autocomplete="given-name" title="Your First Name"></label>
+            <label>Last Name <input type="text" name="last" required autocomplete="family-name" title="Your Last Name"></label>
+            <label>Organizational title <input type="text" name="orgTitle" required pattern="[A-Za-z\s\-]{7,}" title="Your Organizational Title (only letters, hyphens, and spaces; minimum 7 characters)" autocomplete="organization-title"></label>
+            <label>Cell Phone <input type="tel" name="phone"  autocomplete="tel" title="A Phone Number with dashes" placeholder="987-555-1234" ></label>
+            <label>Email <input type="email" name="email" required placeholder="john89@gmail.com"  title="Your Email" autocomplete="email"></label>
+            <label>Business/Organization's Name<input type="text" name="businessName" required autocomplete="business" title="A Business Name"></label>
+    
 
-        <h3>Select Membership Level</h3>
-        <label><input type="radio" name="membership" value="NP" checked> No Profit Membership</label>
-        <label><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
-        <label><input type="radio" name="membership" value="Silver"> Silver Membership</label>
-        <label><input type="radio" name="membership" value="Gold"> Gold Membership</label>
-        <label>Description <textarea name="description" title="Describe your organization"></textarea></label>
+            <h3>Select Membership Level</h3>
+            <label><input type="radio" name="membership" value="NP" checked> No Profit Membership</label>
+            <label><input type="radio" name="membership" value="Bronze"> Bronze Membership</label>
+            <label><input type="radio" name="membership" value="Silver"> Silver Membership</label>
+            <label><input type="radio" name="membership" value="Gold"> Gold Membership</label>
 
-        <input type="hidden" name="timestamp" id="timestamp">
+            <label class="description">Description <textarea name="description" title="Describe your organization"></textarea></label>
 
-        <input type="submit" value="Join The Chamber">
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Join The Chamber">
+        </div>
+
+        <div id="membership-cards" class="membership-cards">
+            <h2>Membership Levels</h2>
+        </div>
+
+        <dialog id="membership-details"><div class="dialog-content"></div></dialog>
+
     </form>
       </main>
 

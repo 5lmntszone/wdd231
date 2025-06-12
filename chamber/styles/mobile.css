@@ -137,6 +137,25 @@ main {
     max-width: 80px;
     height: auto;
   }
+
+  /* MEMBERSHIP CARDS */
+
+  form {
+    flex-direction: column;
+    max-width: 400px;
+    justify-self: center;
+    gap: .5rem !important;
+  }
+
+  /* MODALS */
+
+  .dialog-content h3 {
+    font-size: 1.1rem;
+  }
+
+  dialog button {
+    padding: .3rem .7rem !important;
+}
   
   /* FOOTER */
   footer {
