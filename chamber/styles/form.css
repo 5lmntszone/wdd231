@@ -1,8 +1,4 @@
 *{box-sizing: border-box;}
-html {
-  -webkit-text-size-adjust: 100%; 
-  -ms-text-size-adjust: 100%;
-}
 
 h1 {
     justify-self: center;
@@ -79,16 +75,11 @@ form {
         border-radius: 2rem;
         padding: .75rem 1.5rem;
         font-size: 1rem;
-        -webkit-appearance: none;
-        appearance: none;
     }
 
     input[type=submit]:hover {
       background-color: #005b88;
     }
-  }
-  input:-webkit-autofill{
-    -webkit-text-fill-color: #3D405B;
   }
 
   /* MODALS */
