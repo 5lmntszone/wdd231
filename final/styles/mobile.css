@@ -1,0 +1,10 @@
+.wireframes {
+    flex-direction: column;
+    justify-self: center;
+    j
+}
+
+.wireframes img {
+    max-width: 400px;
+    height: auto;
+}
