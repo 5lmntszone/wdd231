@@ -1,0 +1,48 @@
+/* === Responsive Styles for Gear&Ride === */
+
+@media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+      gap: 1rem;
+      padding: 1rem 0;
+    }
+  
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .overview {
+      padding: 1.5rem 1rem;
+    }
+  
+    .featured {
+      padding: 1.5rem 1rem;
+    }
+  
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .card {
+      text-align: center;
+    }
+  
+    footer {
+      font-size: 0.8rem;
+      padding: 1rem 0.5rem;
+    }
+  }
+  
