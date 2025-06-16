@@ -4,7 +4,11 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    #allplaces div {
+        min-width: 500px;
+    }
+
     #allplaces div img {
-        width: 200px;
+        width: 300px;
     }
 }

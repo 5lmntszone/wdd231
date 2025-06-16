@@ -9,6 +9,7 @@
     border: 1px solid #999;
     background-color: #eee;
     border-radius: 8px;
+    max-width: 300px;
 
     display: grid;
     grid-template-areas: 

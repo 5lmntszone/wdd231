@@ -1,5 +1,6 @@
 @media only screen and (min-width: 641px) {
     #allplaces div {
+        max-width: 700px;
 
         grid-template-areas: 
         "photograph name"
