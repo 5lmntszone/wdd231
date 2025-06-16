@@ -12,4 +12,17 @@
     #allplaces div img {
         width: 300px;
     }
+
+    /* HOVER EFFECT */
+
+    #allplaces img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+    
+    #allplaces img:hover {
+        filter: grayscale(30%) brightness(1.2);
+        transform: scale(1.05) rotate(-1deg);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
 }
