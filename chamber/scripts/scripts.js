@@ -62,16 +62,3 @@ function getMembershipLabel(level) {
 }
 
 getMembers();
-
-// Dark Mode Toggle
-const toggle = document.getElementById("darkToggle");
-const body = document.body;
-
-if (localStorage.getItem("theme") === "dark") {
-  body.classList.add("dark-mode");
-}
-
-toggle.addEventListener("click", () => {
-  body.classList.toggle("dark-mode");
-  localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
-});
