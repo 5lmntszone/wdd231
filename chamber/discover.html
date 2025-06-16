@@ -6,7 +6,7 @@
     <meta name="author" content="Joanna Wisniewska">
     <meta name="title" content="Chamber of Commerce - WDD231 Joanna Wisniewska">
     <meta name="description" content="A chamber of commerce is a local organization of businesses that work together to strengthen the business interests of the group. The intent of a chamber of commerce is to foster networking and to advocate on the behalf of the community.">
-    <title>Chamber of Commerce - Geneva | WDD231 Joanna Wisniewska</title>
+    <title>Chamber of Commerce - Timbuktu | WDD231 Joanna Wisniewska</title>
 
     <meta property="og:title" content="Chamber of Commerce - WDD231 Joanna Wisniewska">
     <meta property="og:description" content="A chamber of commerce is a local organization of businesses that work together to strengthen the business interests of the group. The intent of a chamber of commerce is to foster networking and to advocate on the behalf of the community.">
@@ -16,9 +16,15 @@
     <link rel="icon" href="images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/darkmode.css">
-    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 825px)">
     <link rel="stylesheet" href="styles/layout-fix.css">
+
+    <link rel="stylesheet" href="styles/places-small.css">
+    <link rel="stylesheet" href="styles/places-medium.css">
+    <link rel="stylesheet" href="styles/places-large.css">
+
     <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/places.js" type="module" defer></script>
 </head>
 <body>
     <header>
@@ -37,35 +43,25 @@
           <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="directory.html" class="active">Directory</a></li>
+              <li><a href="directory.html">Directory</a></li>
               <li><a href="join.html">Join</a></li>
-              <li><a href="">Discover</a></li>
+              <li><a href="discover.html" class="active">Discover</a></li>
             </ul>
           </nav>
         </div>
       </header>      
          
     <main>
-        <h1>Welcome to Geneva - Chamber of Commerce!</h1>
-        <div class="hero-img">
-            <img src="images/hero-img.webp" alt="Hero Image" loading="lazy">
-            <button type="submit">Keynote Tickets</button>
-        </div>
-
-        <div class="menu">
-          <button id="grid">Grid</button>
-          <button id="list">List</button>
-        </div>
-
-        <article id="business-directory" class="grid"></article>
+        <h1></h1>
+        <div id="allplaces"></div>
     </main>
     <footer>
         <div class="left-tab">
-          <p><strong>Geneva Chamber of Commerce</strong></p>
-          <p>10 Rue du Mont-Blanc</p>
-          <p>1201 Geneva, Switzerland</p>
-          <p>info@genevacc.org</p>
-          <p>+41 22 555 23 00</p>          
+            <p><strong>Geneva Chamber of Commerce</strong></p>
+            <p>10 Rue du Mont-Blanc</p>
+            <p>1201 Geneva, Switzerland</p>
+            <p>info@genevacc.org</p>
+            <p>+41 22 555 23 00</p>
         </div>
 
         <div class="social-media">
