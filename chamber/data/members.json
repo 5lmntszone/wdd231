@@ -2,8 +2,8 @@
   "members": [
     {
       "name": "The Liceria Drink",
-      "address": "123 Main St, Timbuktu",
-      "phone": "(223) 555-1234",
+      "address": "12 Rue du Rhône, 1204 Geneva, Switzerland",
+      "phone": "+41 22 555 12 34",
       "website": "https://bluedesert.com",
       "image": "company4.png",
       "membership": 3,
@@ -11,17 +11,17 @@
     },
     {
       "name": "Global Tech",
-      "address": "456 Innovation Way, Timbuktu",
-      "phone": "(223) 555-5678",
+      "address": "24 Avenue de la Paix, 1202 Geneva, Switzerland",
+      "phone": "+41 22 555 56 78",
       "website": "https://saharatech.org",
       "image": "company2.png",
       "membership": 2,
-      "description": "Technology solutions provider for desert infrastructure and energy."
+      "description": "Technology solutions provider for smart infrastructure and energy."
     },
     {
       "name": "People Connect",
-      "address": "789 Market Rd, Timbuktu",
-      "phone": "(223) 555-4321",
+      "address": "77 Rue de Lausanne, 1202 Geneva, Switzerland",
+      "phone": "+41 22 555 43 21",
       "website": "https://nomadoutfitters.ml",
       "image": "company3.png",
       "membership": 1,
@@ -29,41 +29,39 @@
     },
     {
       "name": "Larana",
-      "address": "99 Explorer Ave, Timbuktu",
-      "phone": "(223) 555-6789",
+      "address": "19 Rue des Alpes, 1201 Geneva, Switzerland",
+      "phone": "+41 22 555 67 89",
       "website": "https://timbuktutours.com",
       "image": "company6.png",
       "membership": 3,
-      "description": "Cultural and historical tours of Mali."
+      "description": "Cultural and historical walking tours of Geneva."
     },
     {
       "name": "Liceria & CO",
-      "address": "22 Serenity St, Timbuktu",
-      "phone": "(223) 555-8765",
+      "address": "88 Chemin de la Montagne, 1213 Petit-Lancy, Geneva",
+      "phone": "+41 22 555 87 65",
       "website": "https://oasiswellness.ml",
       "image": "company1.png",
       "membership": 2,
-      "description": "Luxury wellness and spa services with desert-inspired therapies."
+      "description": "Luxury wellness and spa services with alpine-inspired therapies."
     },
     {
       "name": "Blue Waves",
-      "address": "18 Caravan Ln, Timbuktu",
-      "phone": "(223) 555-1111",
+      "address": "3 Quai Wilson, 1201 Geneva, Switzerland",
+      "phone": "+41 22 555 11 11",
       "website": "https://camelcourier.ml",
       "image": "company5.png",
       "membership": 1,
-      "description": "Eco-friendly package delivery service."
+      "description": "Eco-friendly package delivery service across Lake Geneva."
     },
     {
       "name": "Borcelle",
-      "address": "100 Tech Valley, Timbuktu",
-      "phone": "(223) 555-2222",
+      "address": "5 Route de Meyrin, 1203 Geneva, Switzerland",
+      "phone": "+41 22 555 22 22",
       "website": "https://desertdata.ml",
       "image": "company7.png",
       "membership": 3,
-      "description": "Data analytics and consulting for arid regions."
+      "description": "Data analytics and consulting for sustainable urban planning."
     }
   ]
 }
-
-  

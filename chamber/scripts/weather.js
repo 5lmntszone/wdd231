@@ -4,8 +4,8 @@ const myTemperature = document.querySelector('#temperature');
 const myGraphic = document.querySelector('#graphic');
 
 const myKey = "7114b4b1d793707e56517c876d66a34c"
-const myLat = "16.76" 
-const myLong = "-3.00"
+const myLat = "46.20";
+const myLong = "6.14";
 
 const myURL = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&appid=${myKey}&units=metric`
 
