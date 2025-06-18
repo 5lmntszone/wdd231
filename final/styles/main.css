@@ -206,25 +206,38 @@ footer {
 /* LOADER */
 
 .loader {
-  display: none;
-  justify-content: center;
-  align-items: center;
   position: fixed;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 9999;
+  background: var(--background-color); /* your dark theme bg */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--accent-color); /* your brand accent color */
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  z-index: 10000;
+  transition: opacity 0.3s ease;
 }
-.loader .spinner {
-  width: 50px;
-  height: 50px;
-  border: 5px solid #ccc;
-  border-top: 5px solid var(--accent-color);
+
+.loader.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 6px solid rgba(255, 255, 255, 0.1);
+  border-top: 6px solid var(--accent-color); /* use your accent */
   border-radius: 50%;
   animation: spin 1s linear infinite;
+  margin-bottom: 1.25rem;
 }
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
   }
 }
-
