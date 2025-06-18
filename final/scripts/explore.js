@@ -2,6 +2,7 @@ import { showLoader, hideLoader } from './loader.js';
 import { shopProducts } from '../data/shopData.mjs';
 import { setupModal } from './modal.js';
 import { updateFooter } from './footerUtils.js';
+import './nav.js';
 
 showLoader();
 

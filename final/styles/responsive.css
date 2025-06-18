@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
     header {
-      flex-direction: column;
-      align-items: flex-start;
+      flex-direction: row;
+      align-items: center;
       gap: 1rem;
     }
   
@@ -10,6 +10,7 @@
       width: 100%;
       gap: 1rem;
       padding: 1rem 0;
+      text-align: center;
     }
   
     .hero {
@@ -43,6 +44,31 @@
       padding: 1rem 0.5rem;
     }
   }
+
+  /* Hamburger Menu */
+
+@media screen and (max-width: 768px) {
+  #nav-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background-color: var(--background-color);
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+  }
+
+  nav ul.open {
+    display: flex;
+  }
+}
+
   
   /* EXPLORE PAGE */
 

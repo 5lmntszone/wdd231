@@ -40,6 +40,10 @@ header {
   padding: 1rem 2rem;
   background-color: var(--primary-color);
   border-bottom: 2px solid #333;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -74,6 +78,17 @@ nav a {
 nav a:hover,
 nav a.active {
   color: var(--accent-color);
+}
+
+/* Hamburger Menu */
+
+#nav-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  cursor: pointer;
 }
 
 /* ====== Visit Banner ====== */

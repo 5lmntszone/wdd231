@@ -1,5 +1,6 @@
 import { showLoader, hideLoader } from './loader.js';
 import { updateFooter } from './footerUtils.js';
+import './nav.js';
 
 showLoader();
 
