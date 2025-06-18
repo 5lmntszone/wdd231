@@ -76,3 +76,50 @@
     }
   }
   
+  /* EXPLORE PAGE */
+
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .explore-page .explore-header {
+      padding: 1.5rem;
+    }
+  
+    .explore-page .explore-header h2 {
+      font-size: 2rem;
+    }
+  
+    .explore-page .filter-controls {
+      flex-direction: row;
+      justify-content: center;
+      gap: 1rem;
+    }
+  
+    .explore-page .explore-container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      padding: 1.5rem;
+      gap: 2rem;
+    }
+  
+    .explore-page #modal {
+      max-width: 80%;
+    }
+  }
+
+  /* LEARN PAGE */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .learn-page .learn-header h2 {
+    font-size: 2.2rem;
+  }
+
+  .learn-page .course-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  #course-modal {
+    width: 85%;
+  }
+}
+
+  

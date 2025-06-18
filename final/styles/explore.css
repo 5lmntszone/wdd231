@@ -1,0 +1,107 @@
+/* Scope styles to this page only */
+body.explore-page {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* ===== Explore Header Section ===== */
+  .explore-page .explore-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #141414;
+  }
+  
+  .explore-page .explore-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+  }
+  
+  .explore-page .explore-header p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .explore-page .filter-controls {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .explore-page .filter-controls label {
+    font-weight: bold;
+  }
+  
+  .explore-page #category-filter {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #666;
+    background-color: #222;
+    color: var(--text-color);
+  }
+  
+  /* ===== Card Grid ===== */
+  .explore-page .explore-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .explore-page .card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .explore-page .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .explore-page .card img {
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .explore-page .card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--accent-color);
+  }
+  
+  .explore-page .card p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ===== Modal Dialog ===== */
+  #modal {
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border: none;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    color: var(--text-color);
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  }
+  
+  #closeModal {
+    background: transparent;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 1rem;
+  }
+  

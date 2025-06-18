@@ -1,0 +1,93 @@
+body.learn-page {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  /* ===== Learn Header Section ===== */
+  .learn-page .learn-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #141414;
+  }
+  
+  .learn-page .learn-header h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+  }
+  
+  .learn-page .learn-header p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* ===== Credit Counter ===== */
+  .learn-page .course-controls {
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  /* ===== Course Card Container ===== */
+  .learn-page .course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  /* ===== Course Cards ===== */
+  .learn-page .course-card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .learn-page .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .learn-page .course-card.completed {
+    border: 2px solid var(--accent-color);
+  }
+  
+  .learn-page .course-card h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: var(--accent-color);
+  }
+  
+  .learn-page .course-card p {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* ===== Modal Styles ===== */
+  #course-modal {
+    padding: 1.5rem;
+    background-color: var(--card-bg);
+    border: none;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 90%;
+    color: var(--text-color);
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  }
+  
+  #closeModal {
+    background: transparent;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 1rem;
+  }
+  
