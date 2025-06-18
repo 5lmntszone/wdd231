@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="styles/main.css">
   <link rel="stylesheet" href="styles/learn.css">
+  <link rel="stylesheet" href="styles/modal.css">
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/responsive.css">
 
@@ -45,10 +46,12 @@
 
     <section class="course-container" id="course-container"></section>
 
-    <dialog id="course-modal">
-      <button id="closeModal">❌</button>
-      <div id="modal-content"></div>
-    </dialog>
+    <div class="modal-overlay hidden" id="modal-overlay">
+      <dialog id="modal">
+        <button id="closeModal">❌</button>
+        <div id="modal-content"></div>
+      </dialog>
+    </div>
   </main>
 
   <footer>

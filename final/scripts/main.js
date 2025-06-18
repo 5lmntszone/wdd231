@@ -1,4 +1,9 @@
-// Visit Banner Logic
+import { showLoader, hideLoader } from './loader.js';
+import { updateFooter } from './footerUtils.js';
+
+showLoader();
+
+// Visit Banner
 const banner = document.querySelector(".visit-banner");
 const lastVisit = localStorage.getItem("lastVisit");
 const now = Date.now();
@@ -20,6 +25,5 @@ if (!lastVisit) {
 
 localStorage.setItem("lastVisit", now);
 
-// Footer dynamic year & last modified
-document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("lastModified").textContent = document.lastModified;
+hideLoader();
+updateFooter();

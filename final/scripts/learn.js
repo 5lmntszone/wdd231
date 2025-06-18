@@ -1,9 +1,18 @@
+import { showLoader, hideLoader } from './loader.js';
 import { courses } from '../data/courses.mjs';
+import { setupModal } from './modal.js';
+import { updateFooter } from './footerUtils.js';
+
+showLoader();
 
 const container = document.getElementById('course-container');
 const creditDisplay = document.getElementById('credit-display');
-const courseModal = document.getElementById('course-modal');
-const modalContent = document.getElementById('modal-content');
+
+const { openModal, closeModal } = setupModal({
+  overlayId: 'modal-overlay',
+  modalId: 'modal',
+  closeBtnId: 'closeModal'
+});
 
 function renderCourses(courseList) {
   container.innerHTML = '';
@@ -20,7 +29,7 @@ function renderCourses(courseList) {
       <p>${course.description}</p>
     `;
 
-    card.addEventListener('click', () => displayCourseDetails(course));
+    card.addEventListener('click', () => showCourseDetails(course));
 
     container.appendChild(card);
     totalCredits += course.credits;
@@ -29,7 +38,9 @@ function renderCourses(courseList) {
   creditDisplay.textContent = `Total Credits: ${totalCredits}`;
 }
 
-function displayCourseDetails(course) {
+function showCourseDetails(course) {
+  const modalContent = document.getElementById('modal-content');
+
   modalContent.innerHTML = `
     <h2>${course.subject} ${course.number}</h2>
     <h3>${course.title}</h3>
@@ -39,17 +50,10 @@ function displayCourseDetails(course) {
     <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
   `;
 
-  courseModal.showModal();
+  openModal();
 }
 
-document.getElementById('closeModal').addEventListener('click', () => {
-  courseModal.close();
-});
-
-window.addEventListener('click', (event) => {
-  if (event.target === courseModal) {
-    courseModal.close();
-  }
-});
-
 renderCourses(courses);
+
+hideLoader();
+updateFooter();

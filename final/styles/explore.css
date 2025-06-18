@@ -83,25 +83,13 @@ body.explore-page {
     margin-bottom: 0.5rem;
   }
   
-  /* ===== Modal Dialog ===== */
-  #modal {
-    padding: 1.5rem;
-    background-color: var(--card-bg);
-    border: none;
-    border-radius: 10px;
-    max-width: 600px;
-    width: 90%;
-    color: var(--text-color);
-    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  /* ERROR */
+
+  .error {
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 2rem;
   }
   
-  #closeModal {
-    background: transparent;
-    color: var(--accent-color);
-    font-size: 1.5rem;
-    border: none;
-    cursor: pointer;
-    float: right;
-    margin-bottom: 1rem;
-  }
   
