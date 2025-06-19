@@ -1,5 +1,5 @@
 import { showLoader, hideLoader } from './loader.js';
-import { shopProducts } from '../data/shopData.mjs';
+import { shopProducts } from '../data/shopData.mjs'; 
 import { setupModal } from './modal.js';
 import { updateFooter } from './footerUtils.js';
 import './nav.js';
@@ -17,8 +17,9 @@ const { openModal, closeModal } = setupModal({
 });
 
 
+
 function renderProducts(products) {
-  try {
+  try { 
     container.innerHTML = '';
 
     products.forEach(product => {
@@ -54,7 +55,6 @@ function renderProducts(products) {
   }
 }
 
-// Filtering logic
 categoryFilter.addEventListener('change', () => {
   const value = categoryFilter.value;
   const filtered = value === 'all'
