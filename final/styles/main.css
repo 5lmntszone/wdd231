@@ -212,11 +212,11 @@ nav a.active {
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 0 10px #00000033;
-  transition: transform 0.3s ease;
 
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+
+  transition: opacity 0.6s ease, transform 0.3s ease;
 }
 
 .card img {
@@ -224,6 +224,11 @@ nav a.active {
   height: 300px;
   object-fit: cover;
   border-radius: 6px;
+}
+
+.card.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .card:hover {
@@ -239,11 +244,6 @@ nav a.active {
 
 .card p {
   font-size: 0.95rem;
-}
-
-.card.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 /* Form */
