@@ -26,5 +26,30 @@ if (!lastVisit) {
 
 localStorage.setItem("lastVisit", now);
 
+// Paralax Effect
+
+const heroImg = document.querySelector('.hero img');
+
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  if (heroImg) {
+    heroImg.style.transform = `translateY(${scrollY * 0.3}px)`;
+  }
+});
+
+// Fade-in animation for featured cards
+const observer = new IntersectionObserver((entries, obs) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('fade-in');
+      obs.unobserve(entry.target); 
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+document.querySelectorAll('.card').forEach(card => observer.observe(card));
+
 hideLoader();
 updateFooter();

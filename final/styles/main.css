@@ -213,6 +213,10 @@ nav a.active {
   border-radius: 8px;
   box-shadow: 0 0 10px #00000033;
   transition: transform 0.3s ease;
+
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .card img {
@@ -235,6 +239,11 @@ nav a.active {
 
 .card p {
   font-size: 0.95rem;
+}
+
+.card.fade-in {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Form */
