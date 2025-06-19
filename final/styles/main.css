@@ -50,17 +50,20 @@ header {
   display: flex;
   align-items: center;
   gap: 1rem;
+  margin-left: -1rem;
 }
 
 .logo img {
   width: 70px;
   height: 70px;
+  margin: 0;
 }
 
 .logo h1 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2rem;
   color: var(--accent-color);
+  margin-left: -1rem;
 }
 
 nav ul {
