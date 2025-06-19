@@ -7,7 +7,7 @@ export const shopProducts = [
       price: "$5,499",
       category: "Sport",
       description: "Lightweight, beginner-friendly sportbike with excellent handling.",
-      image: "images/ninja400.jpg"
+      image: "images/ninja400.webp"
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ export const shopProducts = [
       price: "$11,249",
       category: "Cruiser",
       description: "Classic American cruiser with a bold design and rumbling power.",
-      image: "images/iron883.jpg"
+      image: "images/iron883.webp"
     },
     {
       id: 5,
