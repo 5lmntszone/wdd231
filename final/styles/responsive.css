@@ -26,6 +26,10 @@
     .overview {
       padding: 1.5rem 1rem;
     }
+
+    .overview li {
+      font-size: small;
+    }
   
     .featured {
       padding: 1.5rem 1rem;
@@ -145,3 +149,19 @@
     padding: 1rem;
   }
 }
+
+/* ATTRIBUTIONS PAGE */
+
+.attributions-page {
+  line-height: 3rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.attributions-page ul, li {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+  
