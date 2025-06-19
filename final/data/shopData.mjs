@@ -25,7 +25,7 @@ export const shopProducts = [
       price: "$1,299",
       category: "Adventure",
       description: "7-day guided motorcycle tour through the Swiss Alps. Includes lodging and meals.",
-      image: "images/alps-tour.jpg"
+      image: "images/alps-tour.webp"
     },
     {
       id: 4,
@@ -44,7 +44,7 @@ export const shopProducts = [
       price: "$299.99",
       category: "Apparel",
       description: "Stylish and armored textile riding jacket for all-weather comfort.",
-      image: "images/revit-jacket.jpg"
+      image: "images/revit-jacket.webp"
     },
     {
       id: 6,
@@ -53,7 +53,7 @@ export const shopProducts = [
       price: "$950",
       category: "Scenic",
       description: "3-day ride along the Pacific Coast Highway with expert guides and group lodging.",
-      image: "images/california-coast.jpg"
+      image: "images/california-coast.webp"
     }
   ];
   
