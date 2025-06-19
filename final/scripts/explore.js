@@ -26,7 +26,7 @@ function renderProducts(products) {
       card.classList.add('card');
 
       card.innerHTML = `
-        <img src="${product.image}" alt="${product.name}">
+        <img src="${product.image}" alt="${product.name}" loading="lazy">
         <h3>${product.name}</h3>
         <p><strong>Type:</strong> ${product.type}</p>
         ${product.engine ? `<p><strong>Engine:</strong> ${product.engine}</p>` : ''}
@@ -37,7 +37,7 @@ function renderProducts(products) {
       card.addEventListener('click', () => {
         modalContent.innerHTML = `
           <h2>${product.name}</h2>
-          <img src="${product.image}" alt="${product.name}">
+          <img src="${product.image}" alt="${product.name}" loading="lazy">
           <p>${product.description}</p>
           ${product.engine ? `<p><strong>Engine:</strong> ${product.engine}</p>` : ''}
           <p><strong>Price:</strong> ${product.price}</p>
