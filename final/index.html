@@ -9,7 +9,6 @@
   <title>Gear&Ride | Ride. Learn. Explore.</title>
 
   <link rel="stylesheet" href="styles/main.css" />
-  <link rel="stylesheet" href="styles/explore.css"/>
   <link rel="stylesheet" href="styles/medium.css">
   <link rel="stylesheet" href="styles/responsive.css" />
 
@@ -81,6 +80,29 @@
         </div>
       </div>
     </section>
+
+    <section class="join-section">
+      <h2>Join the Gear&Ride Community</h2>
+      <p>Sign up to stay updated on tours, gear releases, and exclusive member events.</p>
+      
+      <form method="GET" action="thankyoupage.html">
+        <label for="name">Full Name:</label>
+        <input type="text" name="name" required title="Your Full Name"/>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" required placeholder="john89@gmail.com" title="Your Email" autocomplete="email"/>
+    
+        <label for="type">I’m interested in:</label>
+        <select name="interest">
+          <option value="tours">Group Tours</option>
+          <option value="gear">Motorcycle Gear</option>
+          <option value="education">Riding Education</option>
+          <option value="all">Everything!</option>
+        </select>
+    
+        <button type="submit">Join Now</button>
+      </form>
+    </section>    
   </main>
 
   <footer>

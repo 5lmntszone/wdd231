@@ -1,0 +1,33 @@
+main {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}  
+
+#results {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  #results:hover {
+    transform: scale(1.01);
+  }
+  
+  #results h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #results p {
+    font-size: 1.1rem;
+    margin: 0.75rem 0;
+    line-height: 1.6;
+  }
+  

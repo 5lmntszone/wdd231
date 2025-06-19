@@ -71,6 +71,25 @@
       flex-direction: column;
     }
   }
+
+  /* FORM */
+
+  @media (min-width: 600px) {
+    #results {
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 90%;
+    }
+  
+    #results h2 {
+      font-size: 1.8rem;
+    }
+  
+    #results p {
+      font-size: 1.05rem;
+    }
+  }
+  
   
   /* EXPLORE PAGE */
 

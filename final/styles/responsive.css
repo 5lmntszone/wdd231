@@ -43,6 +43,25 @@
       font-size: 0.8rem;
       padding: 1rem 0.5rem;
     }
+
+    .thankyou-page h1 {
+      font-size: 1.8rem;
+    }
+
+    #results {
+      padding: 1.5rem;
+      margin: 1.5rem 1rem;
+      font-size: 1rem;
+    }
+    
+    #results h2 {
+      font-size: 1.5rem;
+    }
+    
+    #results p {
+      font-size: 1rem;
+    }
+    
   }
 
   /* Hamburger Menu */
