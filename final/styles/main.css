@@ -1,7 +1,9 @@
 :root {
   --primary-color: #1f1f1f;
   --background-color: #1f1f1f;
+  --accent-color-lighter: #ff7626;
   --accent-color: #ff5e00;
+  --accent-color-darker: #913804;
   --text-color: #f4f4f4;
   --card-bg: #2a2a2a;
 }
@@ -97,7 +99,7 @@ nav a.active {
 /* ====== Visit Banner ====== */
 .visit-banner {
   background-color: #333;
-  color: var(--accent-color);
+  color: var(--accent-color-lighter);
   text-align: center;
   padding: 0.5rem 1rem;
   font-weight: bold;
@@ -147,7 +149,7 @@ nav a.active {
 
 .cta-button {
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-darker);
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -276,7 +278,7 @@ nav a.active {
 }
 
 .join-section button {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-darker);
   color: #fff;
   padding: 0.75rem;
   font-weight: bold;
