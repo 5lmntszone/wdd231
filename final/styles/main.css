@@ -261,6 +261,10 @@ nav a.active {
   background-color: #e45700;
 }
 
+label[for="name"] {
+  margin-top: 1rem;
+}
+
 /* ====== Footer ====== */
 footer {
   background-color: var(--primary-color);
