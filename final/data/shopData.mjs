@@ -16,7 +16,7 @@ export const shopProducts = [
       price: "$579.99",
       category: "Safety Gear",
       description: "Premium full-face helmet with aerodynamic design and noise reduction.",
-      image: "images/shoei-rf1400.jpg"
+      image: "images/shoei-rf1400.webp"
     },
     {
       id: 3,
