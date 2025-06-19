@@ -178,6 +178,8 @@ nav a.active {
 .overview ul {
   list-style: none;
   padding: 0;
+  line-height: 3rem;
+  letter-spacing: .2rem;
 }
 
 .overview li {

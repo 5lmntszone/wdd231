@@ -48,7 +48,7 @@ function showCourseDetails(course) {
     <p><strong>Credits:</strong> ${course.credits}</p>
     <p><strong>Certificate:</strong> ${course.certificate}</p>
     <p>${course.description}</p>
-    <p><strong>Technologies:</strong> ${course.technology.join(', ')}</p>
+    <p><strong>Equipment:</strong> ${course.equipment.join(', ')}</p>
   `;
 
   openModal();
