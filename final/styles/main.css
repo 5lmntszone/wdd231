@@ -342,3 +342,10 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+/* ATTRIBUTIONS PAGE */
+
+.attributions-page {
+  line-height: 3rem;
+  text-align: center;
+  }
